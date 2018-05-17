@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE19D7EF20884709007EF480 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE19D7EE20884709007EF480 /* functions.swift */; };
+		FE19D7F1208848A5007EF480 /* NomalModeNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE19D7F0208848A5007EF480 /* NomalModeNameController.swift */; };
+		FE2198182086E20700130F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2198172086E20700130F68 /* AppDelegate.swift */; };
+		FE21981D2086E20700130F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE21981B2086E20700130F68 /* Main.storyboard */; };
+		FE21981F2086E20900130F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE21981E2086E20900130F68 /* Assets.xcassets */; };
+		FE2198222086E20900130F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2198202086E20900130F68 /* LaunchScreen.storyboard */; };
+		FE21982D2086E20900130F68 /* Ziang_Qiu_MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21982C2086E20900130F68 /* Ziang_Qiu_MemoryGameTests.swift */; };
+		FE2198382086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2198372086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.swift */; };
+		FE30231420884CAE001C13D7 /* normalGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30231320884CAE001C13D7 /* normalGameController.swift */; };
+		FE6710C72097FABC00D5438A /* leaderBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6710C62097FABC00D5438A /* leaderBoardController.swift */; };
+		FE9BACBB208EBC2800CD9F7B /* timeModeNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9BACBA208EBC2800CD9F7B /* timeModeNameController.swift */; };
+		FE9BACBD208EBD0B00CD9F7B /* timeGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9BACBC208EBD0B00CD9F7B /* timeGameController.swift */; };
+		FEA69CA02094059D006E751C /* oneVsOneGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA69C9F2094059D006E751C /* oneVsOneGameController.swift */; };
+		FEB36A4D209135AF00ABA42C /* oneVsOneGameNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB36A4C209135AF00ABA42C /* oneVsOneGameNameController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE2198292086E20900130F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE21980C2086E20700130F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2198132086E20700130F68;
+			remoteInfo = Ziang_Qiu_MemoryGame;
+		};
+		FE2198342086E20900130F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE21980C2086E20700130F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2198132086E20700130F68;
+			remoteInfo = Ziang_Qiu_MemoryGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE19D7EE20884709007EF480 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		FE19D7F0208848A5007EF480 /* NomalModeNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomalModeNameController.swift; sourceTree = "<group>"; };
+		FE2198142086E20700130F68 /* Ziang_Qiu_MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ziang_Qiu_MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2198172086E20700130F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE21981C2086E20700130F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE21981E2086E20900130F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE2198212086E20900130F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE2198232086E20900130F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2198282086E20900130F68 /* Ziang_Qiu_MemoryGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ziang_Qiu_MemoryGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE21982C2086E20900130F68 /* Ziang_Qiu_MemoryGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ziang_Qiu_MemoryGameTests.swift; sourceTree = "<group>"; };
+		FE21982E2086E20900130F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2198332086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ziang_Qiu_MemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2198372086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ziang_Qiu_MemoryGameUITests.swift; sourceTree = "<group>"; };
+		FE2198392086E20A00130F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE30231320884CAE001C13D7 /* normalGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = normalGameController.swift; sourceTree = "<group>"; };
+		FE6710C62097FABC00D5438A /* leaderBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaderBoardController.swift; sourceTree = "<group>"; };
+		FE9BACBA208EBC2800CD9F7B /* timeModeNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeModeNameController.swift; sourceTree = "<group>"; };
+		FE9BACBC208EBD0B00CD9F7B /* timeGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeGameController.swift; sourceTree = "<group>"; };
+		FEA69C9F2094059D006E751C /* oneVsOneGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneVsOneGameController.swift; sourceTree = "<group>"; };
+		FEB36A4C209135AF00ABA42C /* oneVsOneGameNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneVsOneGameNameController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE2198112086E20700130F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2198252086E20900130F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2198302086E20900130F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE21980B2086E20700130F68 = {
+			isa = PBXGroup;
+			children = (
+				FE2198162086E20700130F68 /* Ziang_Qiu_MemoryGame */,
+				FE21982B2086E20900130F68 /* Ziang_Qiu_MemoryGameTests */,
+				FE2198362086E20900130F68 /* Ziang_Qiu_MemoryGameUITests */,
+				FE2198152086E20700130F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE2198152086E20700130F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE2198142086E20700130F68 /* Ziang_Qiu_MemoryGame.app */,
+				FE2198282086E20900130F68 /* Ziang_Qiu_MemoryGameTests.xctest */,
+				FE2198332086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE2198162086E20700130F68 /* Ziang_Qiu_MemoryGame */ = {
+			isa = PBXGroup;
+			children = (
+				FE2198172086E20700130F68 /* AppDelegate.swift */,
+				FE6710C62097FABC00D5438A /* leaderBoardController.swift */,
+				FE21981B2086E20700130F68 /* Main.storyboard */,
+				FEB36A4C209135AF00ABA42C /* oneVsOneGameNameController.swift */,
+				FEA69C9F2094059D006E751C /* oneVsOneGameController.swift */,
+				FE9BACBA208EBC2800CD9F7B /* timeModeNameController.swift */,
+				FE2198202086E20900130F68 /* LaunchScreen.storyboard */,
+				FE30231320884CAE001C13D7 /* normalGameController.swift */,
+				FE19D7F0208848A5007EF480 /* NomalModeNameController.swift */,
+				FE9BACBC208EBD0B00CD9F7B /* timeGameController.swift */,
+				FE19D7EE20884709007EF480 /* functions.swift */,
+				FE21981E2086E20900130F68 /* Assets.xcassets */,
+				FE2198232086E20900130F68 /* Info.plist */,
+			);
+			path = Ziang_Qiu_MemoryGame;
+			sourceTree = "<group>";
+		};
+		FE21982B2086E20900130F68 /* Ziang_Qiu_MemoryGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE21982C2086E20900130F68 /* Ziang_Qiu_MemoryGameTests.swift */,
+				FE21982E2086E20900130F68 /* Info.plist */,
+			);
+			path = Ziang_Qiu_MemoryGameTests;
+			sourceTree = "<group>";
+		};
+		FE2198362086E20900130F68 /* Ziang_Qiu_MemoryGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE2198372086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.swift */,
+				FE2198392086E20A00130F68 /* Info.plist */,
+			);
+			path = Ziang_Qiu_MemoryGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE2198132086E20700130F68 /* Ziang_Qiu_MemoryGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE21983C2086E20A00130F68 /* Build configuration list for PBXNativeTarget "Ziang_Qiu_MemoryGame" */;
+			buildPhases = (
+				FE2198102086E20700130F68 /* Sources */,
+				FE2198112086E20700130F68 /* Frameworks */,
+				FE2198122086E20700130F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ziang_Qiu_MemoryGame;
+			productName = Ziang_Qiu_MemoryGame;
+			productReference = FE2198142086E20700130F68 /* Ziang_Qiu_MemoryGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE2198272086E20900130F68 /* Ziang_Qiu_MemoryGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE21983F2086E20A00130F68 /* Build configuration list for PBXNativeTarget "Ziang_Qiu_MemoryGameTests" */;
+			buildPhases = (
+				FE2198242086E20900130F68 /* Sources */,
+				FE2198252086E20900130F68 /* Frameworks */,
+				FE2198262086E20900130F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE21982A2086E20900130F68 /* PBXTargetDependency */,
+			);
+			name = Ziang_Qiu_MemoryGameTests;
+			productName = Ziang_Qiu_MemoryGameTests;
+			productReference = FE2198282086E20900130F68 /* Ziang_Qiu_MemoryGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE2198322086E20900130F68 /* Ziang_Qiu_MemoryGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2198422086E20A00130F68 /* Build configuration list for PBXNativeTarget "Ziang_Qiu_MemoryGameUITests" */;
+			buildPhases = (
+				FE21982F2086E20900130F68 /* Sources */,
+				FE2198302086E20900130F68 /* Frameworks */,
+				FE2198312086E20900130F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2198352086E20900130F68 /* PBXTargetDependency */,
+			);
+			name = Ziang_Qiu_MemoryGameUITests;
+			productName = Ziang_Qiu_MemoryGameUITests;
+			productReference = FE2198332086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE21980C2086E20700130F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = skylove;
+				TargetAttributes = {
+					FE2198132086E20700130F68 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FE2198272086E20900130F68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FE2198132086E20700130F68;
+					};
+					FE2198322086E20900130F68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FE2198132086E20700130F68;
+					};
+				};
+			};
+			buildConfigurationList = FE21980F2086E20700130F68 /* Build configuration list for PBXProject "Ziang_Qiu_MemoryGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE21980B2086E20700130F68;
+			productRefGroup = FE2198152086E20700130F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE2198132086E20700130F68 /* Ziang_Qiu_MemoryGame */,
+				FE2198272086E20900130F68 /* Ziang_Qiu_MemoryGameTests */,
+				FE2198322086E20900130F68 /* Ziang_Qiu_MemoryGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE2198122086E20700130F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2198222086E20900130F68 /* LaunchScreen.storyboard in Resources */,
+				FE21981F2086E20900130F68 /* Assets.xcassets in Resources */,
+				FE21981D2086E20700130F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2198262086E20900130F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2198312086E20900130F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE2198102086E20700130F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6710C72097FABC00D5438A /* leaderBoardController.swift in Sources */,
+				FE9BACBB208EBC2800CD9F7B /* timeModeNameController.swift in Sources */,
+				FE30231420884CAE001C13D7 /* normalGameController.swift in Sources */,
+				FEA69CA02094059D006E751C /* oneVsOneGameController.swift in Sources */,
+				FE9BACBD208EBD0B00CD9F7B /* timeGameController.swift in Sources */,
+				FE19D7F1208848A5007EF480 /* NomalModeNameController.swift in Sources */,
+				FEB36A4D209135AF00ABA42C /* oneVsOneGameNameController.swift in Sources */,
+				FE2198182086E20700130F68 /* AppDelegate.swift in Sources */,
+				FE19D7EF20884709007EF480 /* functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2198242086E20900130F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE21982D2086E20900130F68 /* Ziang_Qiu_MemoryGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE21982F2086E20900130F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2198382086E20900130F68 /* Ziang_Qiu_MemoryGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE21982A2086E20900130F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2198132086E20700130F68 /* Ziang_Qiu_MemoryGame */;
+			targetProxy = FE2198292086E20900130F68 /* PBXContainerItemProxy */;
+		};
+		FE2198352086E20900130F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2198132086E20700130F68 /* Ziang_Qiu_MemoryGame */;
+			targetProxy = FE2198342086E20900130F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE21981B2086E20700130F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE21981C2086E20700130F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE2198202086E20900130F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2198212086E20900130F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE21983A2086E20A00130F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE21983B2086E20A00130F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE21983D2086E20A00130F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DZ9Y5FRKK;
+				INFOPLIST_FILE = Ziang_Qiu_MemoryGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Ziang-Qiu-MemoryGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE21983E2086E20A00130F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DZ9Y5FRKK;
+				INFOPLIST_FILE = Ziang_Qiu_MemoryGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Ziang-Qiu-MemoryGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE2198402086E20A00130F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ziang_Qiu_MemoryGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Ziang-Qiu-MemoryGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ziang_Qiu_MemoryGame.app/Ziang_Qiu_MemoryGame";
+			};
+			name = Debug;
+		};
+		FE2198412086E20A00130F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ziang_Qiu_MemoryGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Ziang-Qiu-MemoryGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ziang_Qiu_MemoryGame.app/Ziang_Qiu_MemoryGame";
+			};
+			name = Release;
+		};
+		FE2198432086E20A00130F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ziang_Qiu_MemoryGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Ziang-Qiu-MemoryGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ziang_Qiu_MemoryGame;
+			};
+			name = Debug;
+		};
+		FE2198442086E20A00130F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ziang_Qiu_MemoryGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Ziang-Qiu-MemoryGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ziang_Qiu_MemoryGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE21980F2086E20700130F68 /* Build configuration list for PBXProject "Ziang_Qiu_MemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE21983A2086E20A00130F68 /* Debug */,
+				FE21983B2086E20A00130F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE21983C2086E20A00130F68 /* Build configuration list for PBXNativeTarget "Ziang_Qiu_MemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE21983D2086E20A00130F68 /* Debug */,
+				FE21983E2086E20A00130F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE21983F2086E20A00130F68 /* Build configuration list for PBXNativeTarget "Ziang_Qiu_MemoryGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2198402086E20A00130F68 /* Debug */,
+				FE2198412086E20A00130F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2198422086E20A00130F68 /* Build configuration list for PBXNativeTarget "Ziang_Qiu_MemoryGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2198432086E20A00130F68 /* Debug */,
+				FE2198442086E20A00130F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE21980C2086E20700130F68 /* Project object */;
+}
