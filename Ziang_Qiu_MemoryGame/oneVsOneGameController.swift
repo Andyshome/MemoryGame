@@ -309,6 +309,7 @@ class oneVsOneGameController: UIViewController {
             buttons[i].isHidden = false
             // set the image for each buttons
             buttons[i].setImage(#imageLiteral(resourceName: "Github"), for: .normal)
+            buttons[i].isUserInteractionEnabled = true
         }
         // set the give up button could be used
         giveUpButton.isUserInteractionEnabled = true
